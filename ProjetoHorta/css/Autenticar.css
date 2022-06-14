@@ -1,0 +1,49 @@
+h3{
+color: #75A58E;
+text-align: center;
+font-family: "arial";
+padding-bottom: 10px;
+}
+body{
+  padding-top: 150px;
+  background-color: #D2E5CB;
+  align-items: center;
+}
+p.link{
+  font-family: "arial";
+  font-size: 12px;
+  text-align: center;
+  padding: 5px;
+}
+p.label{
+  font-family: "arial";
+  font-size: 10px;
+  text-align: center;
+}
+img.img{
+  padding: 10px;
+}
+form{
+  margin: 0 auto;
+  width: 400px;
+}
+form div + div {
+    margin-top: 1em;
+}
+input{
+  padding: 0px;
+  border-style: none;
+}
+input.botão{
+background-color: #75A58E;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 3px;
+padding-bottom: 3px;
+border-style: none;
+color: white;
+}
+input.botão, input, img.img, p.link, h3, p.label{
+  display: block;
+  margin: auto;
+}

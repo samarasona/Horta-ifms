@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/planilha de ocupação.css">
+    	<link rel="icon" href="img/plantacao.png" type="image/x-icon">
+    <title>Planilha de ocupação</title>
+  </head>
+  <header>
+    <p><a href="Entrar sem cadastro.html">Voltar</a>
+    <button onclick="window.location.href='index.html'">Sair</button></p>
+  </header>
+  <main>
+    <h3>Planilha de ocupação de controle das glebas</h3>
+  </main>
+  <body>
+    <table>
+      <tr>
+        <th>Gleba</th>
+        <th>Nome do projeto</th>
+        <th>Data início</th>
+        <th>Data final</th>
+        <th>Docentes</th>
+        <th>Discentes</th>
+        <th>Técnicos</th>
+        <th>Recursos e manejos necessário</th>
+
+      </tr>
+      <tbody id="planilha">
+    </table>
+    <form id="form-adiciona">
+        <div class="">
+            <label for="gleba">Gleba:</label>
+            <select id="gleba" name="gleba" type="text">
+              <option>A1</option>
+              <option>A2</option>
+              <option>A3</option>
+              <option>A4</option>
+              <option>A5</option>
+              <option>A6</option>
+              <option>A7</option>
+              <option>A8</option>
+              <option>A9-A10</option>
+              <option>A11</option>
+              <option>A12</option>
+              <option>A13</option>
+              <option>A14</option>
+              <option>A15</option>
+             </select>
+        </div>
+
+        <label for="dataInício">Data de início:</label>
+        <input id="dataInício" name="dataInício" type="date">
+
+        <label for="dataFinal">Data final:</label>
+        <input id="dataFinal" type="date"class="campo campo-medio">
+    </div>
+
+        <div>
+            <label for="nomeDoProjeto">Nome do projeto:</label>
+            <input id="nomeDoProjeto" name="nomeDoProjeto" type="text">
+        </div>
+
+        <div>
+            <label for="docentes">Docentes:</label>
+            <input id="docentes" type="text"  class="campo campo-medio">
+        </div>
+
+        <div>
+            <label for="dicentes">Dicentes:</label>
+            <input id="dicentes" type="text"class="campo campo-medio">
+        </div>
+        <div>
+            <label for="técnicos">Técnicos:</label>
+            <input id="técnicos" type="text"  class="campo campo-medio">
+        </div>
+
+
+        <div>
+            <label for="recursos">Recursos e manejos necessário:</label>
+          <textarea <input id="recursos" type="text" class="campo campo-medio"></textarea>
+        </div>
+
+
+        <button id="adicionar-gleba" class="botao bto-principal">Adicionar</button>
+    </form>
+    <script src="js/planilha.js" ></script>
+  </body>
+</html>

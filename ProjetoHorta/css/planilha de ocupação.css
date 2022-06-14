@@ -1,0 +1,47 @@
+body{
+  background-color: #D2E5CB;
+}
+h3{
+  color: #75A58E;
+  text-align: center;
+  font-family: "arial";
+}
+header{
+  padding-bottom: : 1px;
+}
+p{
+  font-family: "arial";
+  font-size: 12px;
+  padding-bottom: 0px;
+  text-align: right;
+}
+button{
+  padding: 0px;
+  border-style: none;
+  background-color: #A42D2D;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-style: none;
+  color: white;
+}
+table, td, th{
+  border: 1px solid #B9B9B9;
+  border-collapse: collapse;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+th{
+  font-family: "arial";
+  font-weight: bolder;
+  text-align: right;
+  background-color: #75A58E;
+}
+td{
+  font-family: "arial";
+  text-align: left;
+  background-color: white;
+}

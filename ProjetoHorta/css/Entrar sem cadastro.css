@@ -1,0 +1,28 @@
+body{
+  background-color: #D2E5CB;
+}
+h3{
+  color: #75A58E;
+  text-align: center;
+  font-family: "arial";
+}
+header{
+  padding-bottom: : 1px;
+}
+p{
+  font-family: "arial";
+  font-size: 12px;
+  padding-bottom: 0px;
+  text-align: right;
+}
+button{
+  padding: 0px;
+  border-style: none;
+  background-color: #A42D2D;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-style: none;
+  color: white;
+}

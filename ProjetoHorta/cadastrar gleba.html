@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/cadastrar a gleba.css">
+    	<link rel="icon" href="img/plantacao.png" type="image/x-icon">
+    <title>Cadastrar Gleba</title>
+   
+  </head>
+  <body>
+    <div>
+          <h3>Cadastrar Gleba</h3>
+        </div>
+      <form id="form-cadastrar">
+          <div class="gb">
+              <p class="label"><label for="gleba">Gleba:</label></p>
+              <select id="gleba" name="gleba" type="text">
+                <option>A1</option>
+                <option>A2</option>
+                <option>A3</option>
+                <option>A4</option>
+                <option>A5</option>
+                <option>A6</option>
+                <option>A7</option>
+                <option>A8</option>
+                <option>A9-A10</option>
+                <option>A11</option>
+                <option>A12</option>
+                <option>A13</option>
+                <option>A14</option>
+                <option>A15</option>
+               </select>
+          </div>
+          <div>
+            <table>
+              <tr>
+                <td><p class="label"><label for="dataInício">Data de início:</label></p>
+                <input id="dataInício" name="dataInício" type="date"></td>
+                <td class="dt"><p class="label"><label for="dataFinal">Data final:</label></p>
+                <input id="dataFinal" type="date"></td>
+              </tr>
+            </table>
+          </div>
+          <div>
+              <p class="label"><label for="nomeDoProjeto">Nome do projeto:</label>
+              <input class="input" id="nomeDoProjeto" name="nomeDoProjeto" type="text">
+          </div>
+
+          <div>
+              <p class="label"> <label>Docentes</label></p>
+              <input class="input" type="text" required id="Nome" name="Docentes"></input>
+          </div>
+
+          <div>
+              <p class="label"> <label>Técnico</label></p>
+              <input class="input" type="text" required id="Nome" name="Técnico"></input>
+          </div>
+                    <div>
+                        <p class="label"> <label>Dicentes</label></p>
+                        <input id="dicentes" type="text" class="campo campo-medio">
+                    </div>
+
+                    <div>
+                          <p class="label"> <label>Descrição do projeto</label></p>
+                           <textarea class="input" name="feedback" id="feedback"></textarea>
+                    </div>
+
+          <div>
+                <p class="label"> <label>Recursos e manejos necessários</label></p>
+                 <textarea class="input" name="feedback" id="feedback"></textarea>
+          </div>
+
+          <button id="adicionar-gleba" class="botao bto-principal">Adicionar</button>
+          import { initializeApp } from 'firebase/app';
+
+        };
+        
+      </form>
+      <script src="js/cadastrar gleba.js" ></script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+h3{
+color: #75A58E;
+text-align: center;
+font-family: "arial";
+padding-bottom: 10px;
+}
+body{
+background-color: #D2E5CB;
+padding-top: 40px;
+align-items: center;
+}
+table, td, th{
+  width: 300px;
+}
+button{
+border-style: none;
+background-color: #75A58E;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 3px;
+padding-bottom: 3px;
+border-style: none;
+color: white;
+}
+p.bt{
+  font-family: "arial";
+  text-align: center;
+}
+td.dt{
+  padding-right: 0px;
+  padding-left: 12px;
+}
+p.label{
+  font-family: "arial";
+  font-size: 10px;
+}
+form{
+  margin: 0 auto;
+  width: 300px;
+}
+input{
+  padding: 0px;
+  border-style: none;
+}
+form div + div {
+    margin-top: 1em;
+}
+div.gb{
+  text-align: right;
+}
+input.input{
+  width: 300px;
+}
+textarea.input{
+  width: 300px;
+  border-style: none;
+}
+h3, p.label{
+  display: block;
+  margin: auto;
+}
